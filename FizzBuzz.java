@@ -7,15 +7,20 @@ public class FizzBuzz
         {
             if(i % 15 == 0)
             {//f
-                System.out.println("FizzBuzz"+ ":  "+ i);
+                System.out.println("FizzBuzz");
             }
             else if (i % 3 == 0)
             {//T
-                System.out.println("Fizz" + ":  "+ i);
+                System.out.println("Fizz");
             }
-            else if (i % 5 == 0) 
-            {//F
-                System.out.println("Buzz"+ ":  "+ i);
+            else 
+            {
+                if(i % 5 == 0) 
+                {//F
+                    System.out.println("Buzz");
+                }
+                else
+                System.out.println(i);
             }
             i++;//INCREMENTOR NEEDS TO BE INSIDE OF THE WHILE LOOP!!!!!!!!!!!!
         }
