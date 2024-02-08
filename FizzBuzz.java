@@ -1,6 +1,6 @@
 public class FizzBuzz 
 {
-    public static void main(String[] args) throws Exception 
+    public static void main(String[] args)
     {
         int i = 1;
         while (i < 101) 
