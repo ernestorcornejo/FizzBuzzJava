@@ -7,21 +7,21 @@ public class Main
         {
             if(i % 15 == 0)/*We need to have the modulo equal to zero for multiples of 15 and print FizzBuzz, 
             Same with the rest of the other if statements*/
-            {//f
+            {
                 System.out.println("FizzBuzz");
             }
             else if (i % 3 == 0)
-            {//T
+            {
                 System.out.println("Fizz");
             }
             else 
             {
                 if(i % 5 == 0) 
-                {//F
+                {
                     System.out.println("Buzz");
                 }
                 else
-                System.out.println(i);//print the numbers from 1-100 but not the words.
+                System.out.println(i);//Print the numbers from 1-100 but not the words.
             }
             i++;//Increment to reach 100
         }
